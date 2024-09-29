@@ -89,6 +89,7 @@ public class Main {
                 """;
         int opcao;
         do {
+            limpar()
             opcao = inputNumerico(menu);
             switch (opcao) {
                 case 0:
